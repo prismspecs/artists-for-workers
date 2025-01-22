@@ -1,0 +1,76 @@
+/* ARTISTS FOR WORKERS CSS */
+#container {
+	padding: 0px 1vw;
+}
+a {
+	color:#f00;
+	text-decoration:none;
+	/* font-weight:bold; */
+}
+.responsive {
+ width: 100%;
+ height: auto;
+}
+/* .intro {
+	height: 100vh;
+} */
+
+
+body, html {
+	background-color:#ffffff;
+	/* word-break: break-all; */
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:8.5vw;
+}
+
+h1 {
+	font-family: 'Staatliches', sans-serif;
+	/* font-size:9vw; */
+	font-size:1em;
+	/* margin-bottom:12vh; */
+}
+p {
+	font-size:.3em;
+	/* margin-bottom:5vh; */
+}
+/* h2 {
+	font-family: 'Staatliches', sans-serif;
+	font-size:1em;
+	margin-bottom:1vh;
+}
+li {
+	font-size:.2em;
+	margin-bottom:2vh;
+} */
+
+
+@media only screen and (max-width: 600px) {
+	body, html {
+		font-size:15vw;
+		padding:1vw;
+	}
+
+	p {
+		font-size:.5em;
+	}
+	.bottom {
+		margin-top:4vw;
+	}
+/*
+	h1 {
+		font-family: 'Staatliches', sans-serif;
+		font-size:1em;
+		margin-bottom:12vh;
+	}
+	p {
+		font-size:.3em;
+		margin-bottom:5vh;
+	} */
+}
+
+/* huge screen */
+@media screen and (min-width: 1400px) {
+	body, html {
+		font-size:8vw;
+	}
+}
